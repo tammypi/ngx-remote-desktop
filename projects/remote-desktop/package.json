@@ -1,5 +1,5 @@
 {
-  "name": "@raytecvision/ngx-remote-desktop",
+  "name": "@tammypi/ngx-remote-desktop",
   "description": "ngx-remote-desktop is an Angular 12 module that implements the guacamole protocol",
   "license": "MIT",
   "repository": {
@@ -11,14 +11,14 @@
     "url": "https://github.com/raytecvision/ngx-remote-desktop"
   },
   "homepage": "https://github.com/raytecvision/ngx-remote-desktop#readme",
-  "version": "2.1.0-alpha.16",
+  "version": "1.0.0",
   "peerDependencies": {
-    "@angular/common": "^13.3.0",
-    "@angular/core": "^13.3.0",
+    "@angular/common": "^12.2.0",
+    "@angular/core": "^12.2.0",
     "screenfull": "^5.1.0",
     "@raytecvision/guacamole-common-js": "0.0.2"
   },
   "dependencies": {
-    "tslib": "^2.0.0"
+    "tslib": "^2.3.0"
   }
 }
