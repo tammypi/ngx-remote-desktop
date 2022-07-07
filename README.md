@@ -44,3 +44,13 @@ Caveats:
 
 # Thanks
 A big thank you to ILLGrenoble who wrote this project in the first stance and to the Guacamole project.
+
+
+######################################################################
+
+Modification:
+1. Adjust Angular dependency version from 13.3.0 to 12.2.0.
+2. Remove BrowserModule from app.module.ts to avoid the "BrowserModule has already been loaded" error.
+
+How to use it:
+npm install @tammypi/ngx-remote-desktop
