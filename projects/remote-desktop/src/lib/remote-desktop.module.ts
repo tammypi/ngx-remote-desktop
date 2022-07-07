@@ -1,6 +1,5 @@
 import {CommonModule} from '@angular/common';
 import {NgModule} from '@angular/core';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import {HttpClientModule} from '@angular/common/http';
 
@@ -32,7 +31,7 @@ import {FileTransferComponent} from './file-transfer/file-transfer.component';
     FileTransferManagerComponent,
     FileTransferComponent,
   ],
-  imports: [CommonModule, BrowserAnimationsModule, HttpClientModule],
+  imports: [CommonModule, HttpClientModule],
   exports: [
     RemoteDesktopComponent,
     ToolbarItemComponent,
